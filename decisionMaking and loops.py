@@ -17,7 +17,7 @@ while(var<=75):
     var=var+1
 else:
     print(var,"value is greater than 75")
-#for loop
+#for loop for checking whether entered number is prime or not
 num = int(input("enter the number"))
 for j in range(2,num):
     if(num%j==0):
